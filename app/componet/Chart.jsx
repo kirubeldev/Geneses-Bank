@@ -53,7 +53,7 @@ const Chart = ({ numBars }) => {
         if (!startTime) startTime = time;
         const elapsedTime = time - startTime;
 
-        const t = Math.min(elapsedTime / 4000, 1); // Animation duration
+        const t = Math.min(elapsedTime / 2000, 1); // Animation duration
         const newHeights = targetHeights.map(({ min, max }, index) => {
           const variation = Math.random() * 0.5; // Random variation for each bar
           return heights[index] + (max - heights[index]) * (t + variation * (Math.random() - 0.5));
@@ -61,7 +61,7 @@ const Chart = ({ numBars }) => {
 
         setHeights(newHeights);
 
-        if (elapsedTime < 4000) { // Animation time
+        if (elapsedTime < 2000) { // Animation time
           animationFrameId = requestAnimationFrame(animate);
         } else {
           setTimeout(() => {

@@ -1,28 +1,32 @@
-import Link from "next/link";
-import React from "react";
-import Chart from "./Chart";
+import Image from 'next/image';
+import Link from 'next/link';
+import React from 'react';
+import dynamic from 'next/dynamic';
+
+const Chart = dynamic(() => import('./Chart'), { ssr: false });
 
 const Hero = () => {
   return (
     <div
-      className="relative hidden md:inline"
+      className="relative"
       style={{
-        backgroundImage: `url('./bg.png')`, // Replace with your image path
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-        overflow:"hidden", // Full height of the viewport
-        maxwidth: "100vw",
+        backgroundImage: `url('/bg.png')`, // Update path if needed
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        overflow: 'hidden',
+        maxWidth: '100vw',
       }}
     >
       <div className="2xl:px-[300px] px-[125px] pt-6">
         <div className="flex justify-evenly items-center rounded-[30px] bg-[#151515] py-2">
           <div className="flex items-center gap-2">
-            <img
-              src="./logo.svg"
-              className="size-[40px] object-contain"
+            <Image
+              src="/logo.svg"
+              width={40}
+              height={40}
+              className="object-contain"
               alt="Genesis Bank Logo"
             />
-
             <div className="border-r border-1 border-white h-[40px]"></div>
             <div>
               <p className="text-[19px] leading-5 font-bold">
@@ -31,32 +35,30 @@ const Hero = () => {
             </div>
           </div>
 
-          <div>
-            <nav>
-              <ul className="flex gap-[48px] items-center">
-                <li>
-                  <Link className="text-[14px]" href="/about">
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link className="text-[14px]" href="/investment">
-                    Investment
-                  </Link>
-                </li>
-                <li>
-                  <Link className="text-[14px]" href="/howit">
-                    How It Works
-                  </Link>
-                </li>
-                <li>
-                  <Link className="text-[14px]" href="/news">
-                    News
-                  </Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <nav>
+            <ul className="flex gap-[48px] items-center">
+              <li>
+                <Link className="text-[14px]" href="/about">
+                  About Us
+                </Link>
+              </li>
+              <li>
+                <Link className="text-[14px]" href="/investment">
+                  Investment
+                </Link>
+              </li>
+              <li>
+                <Link className="text-[14px]" href="/howit">
+                  How It Works
+                </Link>
+              </li>
+              <li>
+                <Link className="text-[14px]" href="/news">
+                  News
+                </Link>
+              </li>
+            </ul>
+          </nav>
 
           <div className="flex gap-7 items-center">
             <Link className="text-[14px] underline" href="/contact">
@@ -71,10 +73,7 @@ const Hero = () => {
 
       <div className="flex flex-col w-full items-center mt-[100px] justify-center gap-9">
         <div>
-          <p
-            style={{ fontWeight: 100 }}
-            className="text-[30px] md:text-[16px] border border-white rounded-[17px] py-1 px-[80px]"
-          >
+          <p className="text-[30px] md:text-[16px] border border-white rounded-[17px] py-1 px-[80px] font-light">
             Knowledge is power
           </p>
         </div>
@@ -86,7 +85,7 @@ const Hero = () => {
         <p className="text-center text-[16px]">
           Secure your stake in the pioneering investment bank of Ethiopia and{" "}
           <br />
-          become part of the nation&apos;s financial future.
+          become part of the nation's financial future.
         </p>
         <div className="flex items-center gap-[24px]">
           <button className="bg-[#AF001E] rounded-[4px] py-[10px] px-[20px]">
@@ -104,10 +103,10 @@ const Hero = () => {
 
         {/* Image Row */}
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex justify-center gap-[80px] lg:gap-[105px] items-center mb-4">
-          <img src="./zemen.png" className="object-cover" alt="Zemen Bank" />
-          <img src="./tele.png" className="object-cover" alt="Telecom" />
-          <img src="./cbe.png" className="object-cover" alt="CBE" />
-          <img src="./abisinia.png" className="object-cover" alt="Abisinia Bank" />
+          <Image src="/zemen.png" width={100} height={100} className="object-cover" alt="Zemen Bank" />
+          <Image src="/tele.png" width={100} height={100} className="object-cover" alt="Telecom" />
+          <Image src="/cbe.png" width={100} height={100} className="object-cover" alt="CBE" />
+          <Image src="/abisinia.png" width={100} height={100} className="object-cover" alt="Abisinia Bank" />
         </div>
       </div>
     </div>
