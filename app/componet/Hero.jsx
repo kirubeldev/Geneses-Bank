@@ -85,7 +85,7 @@ const Hero = () => {
         <p className="text-center text-[16px]">
           Secure your stake in the pioneering investment bank of Ethiopia and{" "}
           <br />
-          become part of the nation's financial future.
+          become part of the nation&apos;s financial future.
         </p>
         <div className="flex items-center gap-[24px]">
           <button className="bg-[#AF001E] rounded-[4px] py-[10px] px-[20px]">
