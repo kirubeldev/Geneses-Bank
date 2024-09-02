@@ -106,7 +106,7 @@ const App = () => {
   const { width } = useWindowSize();
 
   // Determine the number of bars based on the screen width
-  const numBars = width <= 480 ? 10 : width <= 1024 ? 20 : 50;
+  const numBars = width <= 480 ? 15 : width <= 1024 ? 25 : 50;
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column' }}>

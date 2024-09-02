@@ -18,7 +18,7 @@ const FAQ = () => {
 
   return (
     <div>
-      <div className='max-w-6xl mx-auto'>
+      <div className='max-w-6xl px-5 md:px-0 mt-9 mx-auto'>
         <h1 className='text-[#151515] text-[24px] md:text-[33px] xl:text-[40px] font-bold font-serif'>FAQ's</h1>
         <div className='flex flex-col md:gap-6 space-y-6 md:flex-row md:justify-between md:items-center'>
           <div className=''>

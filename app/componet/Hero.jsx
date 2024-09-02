@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import dynamic from 'next/dynamic';
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Chart = dynamic(() => import('./Chart'), { ssr: false });
 
@@ -17,7 +18,7 @@ const Hero = () => {
         maxWidth: '100vw',
       }}
     >
-      <div className="2xl:px-[300px] px-[125px] pt-6">
+      <div className="2xl:px-[300px] md:px-[125px] md:pt-6">
         <div className="md:flex justify-evenly hidden items-center rounded-[30px] bg-[#151515] py-2">
           <div className="flex items-center gap-2">
             <Image
@@ -71,20 +72,25 @@ const Hero = () => {
         </div>
 
         {/* here to add the mobile nav */}
+
+        <div className='flex md:hidden items-center w-full justify-between px-8  bg-[#151515]  py-2'>
+          <img src="./logo.svg" alt="" />
+          <RxHamburgerMenu  className='size-[30px]'/>
+        </div>
       </div>
 
       <div className="flex flex-col w-full items-center mt-[100px] justify-center gap-9">
         <div>
-          <p className="text-[30px] md:text-[16px] border border-white rounded-[17px] py-1 px-[80px] font-light">
+          <p className="text-[22px] md:text-[30px] border border-white rounded-[17px] py-1 px-[80px] font-light">
             Knowledge is power
           </p>
         </div>
 
-        <h1 className="text-[64px] font-semibold text-center leading-[70px]">
+        <h1 className=" text-[45px] md:text-[55px] xl:text-[64px] font-semibold text-center leading-[70px]">
           Invest in the future <br />
           Genesis Bank
         </h1>
-        <p className="text-center text-[16px]">
+        <p className="text-center text-[16px] px-3 md:px-0">
           Secure your stake in the pioneering investment bank of Ethiopia and{" "}
           <br />
           become part of the nation&apos;s financial future.
