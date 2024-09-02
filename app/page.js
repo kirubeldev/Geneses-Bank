@@ -5,6 +5,8 @@ import Journey from "./componet/Journey";
 import FeturedShares from "./componet/FeturedShares";
 import SecureGraph from "./componet/SecureGraph";
 import Discover from "./componet/Descover";
+import Risk from "./componet/Risk";
+import FAQ from "./componet/FAQ";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
 <p>some brake</p>
     </div>
     <Discover reverse={true} />
+    <Risk/>
+    <FAQ/>
 
    </div>
   );

@@ -17,10 +17,10 @@ const Discover = ({ reverse = false }) => {
 
         </div>
 
-        <div className="w-[502px] relative h-[303px] bg-[#FAFAFA] rounded-xl">
-          <div className="w-[365px] absolute right-0 h-[303px] bg-[#E2EBED] rounded-xl">
-            <div className="absolute w-[345px] h-[211px] right-[120px] top-[50px]">
-              <img src="./carta.png" alt="" className="w-full h-full" />
+        <div className=" w-full md:w-[502px] relative h-[303px] bg-[#FAFAFA] rounded-xl">
+          <div className="w-[300px] md:w-[365px] absolute right-0 h-[303px] bg-[#E2EBED] rounded-xl">
+            <div className="absolute w-[255px] md:w-[345px] h-[211px] right-[120px] top-[50px]">
+              <img src="./carta.png" alt="" className="w-full h-full " />
             </div>
           </div>
         </div>
