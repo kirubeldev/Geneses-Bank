@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import {
-  Accordion,
+  Accordion ,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
@@ -14,12 +14,12 @@ const FAQ = () => {
 
   const handleToggle = (value) => {
     setOpenItem(openItem === value ? null : value);
-  };
-
+};
+ 
   return (
     <div>
       <div className='max-w-6xl px-5 md:px-0 mt-9 mx-auto'>
-        <h1 className='text-[#151515] text-[24px] md:text-[33px] xl:text-[40px] font-bold font-serif'>FAQ&apos;s</h1>
+        <h1 className='text-[#151515] text-[24px] md:text-[33px] xl:text-[40px] font-bold '>FAQ&apos;s</h1>
         <div className='flex flex-col md:gap-6 space-y-6 md:flex-row md:justify-between md:items-center'>
           <div className=''>
             <button className='py-2 mt-12 px-6 rounded-md border'>Contact Support</button>
