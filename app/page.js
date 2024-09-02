@@ -7,6 +7,7 @@ import SecureGraph from "./componet/SecureGraph";
 import Discover from "./componet/Descover";
 import Risk from "./componet/Risk";
 import FAQ from "./componet/FAQ";
+import Footer from "./componet/Footer";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
     <Discover reverse={true} />
     <Risk/>
     <FAQ/>
+    <Footer/>
 
    </div>
   );
