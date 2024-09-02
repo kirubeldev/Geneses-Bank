@@ -8,7 +8,7 @@ const Chart = dynamic(() => import('./Chart'), { ssr: false });
 const Hero = () => {
   return (
     <div
-      className="relative"
+      className="relative text-white"
       style={{
         backgroundImage: `url('/bg.png')`, // Update path if needed
         backgroundSize: 'cover',
@@ -18,7 +18,7 @@ const Hero = () => {
       }}
     >
       <div className="2xl:px-[300px] px-[125px] pt-6">
-        <div className="flex justify-evenly items-center rounded-[30px] bg-[#151515] py-2">
+        <div className="md:flex justify-evenly hidden items-center rounded-[30px] bg-[#151515] py-2">
           <div className="flex items-center gap-2">
             <Image
               src="/logo.svg"
@@ -69,6 +69,8 @@ const Hero = () => {
             </button>
           </div>
         </div>
+
+        {/* here to add the mobile nav */}
       </div>
 
       <div className="flex flex-col w-full items-center mt-[100px] justify-center gap-9">
@@ -98,15 +100,14 @@ const Hero = () => {
       </div>
 
       {/* Wrap the Chart and Image Row in a relative parent */}
-      <div className="relative mt-10">
+      <div className="relative mt-10 ">
         <Chart />
 
         {/* Image Row */}
         <div className="absolute bottom-0 left-1/2 transform -translate-x-1/2 flex justify-center gap-[80px] lg:gap-[105px] items-center mb-4">
           <Image src="/zemen.png" width={100} height={100} className="object-cover" alt="Zemen Bank" />
           <Image src="/tele.png" width={100} height={100} className="object-cover" alt="Telecom" />
-          <Image src="/cbe.png" width={100} height={100} className="object-cover" alt="CBE" />
-          <Image src="/abisinia.png" width={100} height={100} className="object-cover" alt="Abisinia Bank" />
+          <Image src="/dashn.png" width={60} height={60} className="object-cover" alt="CBE" />
         </div>
       </div>
     </div>

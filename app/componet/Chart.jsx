@@ -24,7 +24,7 @@ const useWindowSize = () => {
 
 const Chart = ({ numBars }) => {
   const minHeight = 30; // Minimum height for all bars
-  const maxHeight = 90; // Maximum height for all bars
+  const maxHeight = 100; // Maximum height for all bars
   const initialMinHeight = 70; // Minimum height for bars on page load
   const initialMaxHeight = 110; // Maximum height for bars on page load
 
