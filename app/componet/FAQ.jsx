@@ -41,7 +41,7 @@ const FAQ = () => {
                   </div>
                   <AccordionContent>
                     <div className='pr-12'>
-                      Genesis Bank is Ethiopia's first investment bank, offering a rare opportunity to be part of a pioneering financial institution. Our innovative approach, combined with a deep understanding of the local market, positions us for significant growth and long-term success.
+                      Genesis Bank is Ethiopia&apos;s first investment bank, offering a rare opportunity to be part of a pioneering financial institution. Our innovative approach, combined with a deep understanding of the local market, positions us for significant growth and long-term success.
                     </div>
                   </AccordionContent>
                 </div>
@@ -61,7 +61,7 @@ const FAQ = () => {
                   </div>
                   <AccordionContent>
                     <div className='pr-12'>
-                      Genesis Bank is Ethiopia's first investment bank, offering a rare opportunity to be part of a pioneering financial institution. Our innovative approach, combined with a deep understanding of the local market, positions us for significant growth and long-term success.
+                      Genesis Bank is Ethiopia&apos;s first investment bank, offering a rare opportunity to be part of a pioneering financial institution. Our innovative approach, combined with a deep understanding of the local market, positions us for significant growth and long-term success.
                     </div>
                   </AccordionContent>
                 </div>
@@ -81,7 +81,7 @@ const FAQ = () => {
                   </div>
                   <AccordionContent>
                     <div className='pr-12'>
-                      Genesis Bank is Ethiopia's first investment bank, offering a rare opportunity to be part of a pioneering financial institution. Our innovative approach, combined with a deep understanding of the local market, positions us for significant growth and long-term success.
+                      Genesis Bank is Ethiopia&apos;s first investment bank, offering a rare opportunity to be part of a pioneering financial institution. Our innovative approach, combined with a deep understanding of the local market, positions us for significant growth and long-term success.
                     </div>
                   </AccordionContent>
                 </div>
@@ -101,7 +101,7 @@ const FAQ = () => {
                   </div>
                   <AccordionContent>
                     <div className='pr-12'>
-                      Genesis Bank is Ethiopia's first investment bank, offering a rare opportunity to be part of a pioneering financial institution. Our innovative approach, combined with a deep understanding of the local market, positions us for significant growth and long-term success.
+                      Genesis Bank is Ethiopia&apos;s first investment bank, offering a rare opportunity to be part of a pioneering financial institution. Our innovative approach, combined with a deep understanding of the local market, positions us for significant growth and long-term success.
                     </div>
                   </AccordionContent>
                 </div>
