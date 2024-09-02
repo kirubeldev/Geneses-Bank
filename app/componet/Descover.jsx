@@ -11,7 +11,7 @@ const Discover = ({ reverse = false }) => {
             Discover the Strategic Advantages of <br /> Partnering with Genesis Bank.
           </h1>
           <p className="max-w-[503px] md:max-w-[400px] text-sm md:text-base mt-2">
-            Investing in Genesis Bank means becoming part of a historic financial transformation. With Ethiopia’s growing economy and our strategic approach, your investment is poised to yield significant returns.
+            Investing in Genesis Bank means becoming part of a historic financial transformation. With Ethiopia&apos;s growing economy and our strategic approach, your investment is poised to yield significant returns.
           </p>
         <button className='py-2 mt-12 px-6 rounded-md border'>Learn More</button>
 
