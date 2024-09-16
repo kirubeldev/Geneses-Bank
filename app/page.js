@@ -24,7 +24,7 @@ export default function Home() {
     <Discover reverse={true} />
     <Risk/>
     <FAQ/>
-    <Footer/>
+    {/* <Footer/> */}
 
    </div>
   );
