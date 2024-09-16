@@ -7,21 +7,21 @@ import { IoIosArrowForward } from "react-icons/io";
 const Page = () => {
   return (
     <div>
-      <div className="relative min-h-screen w-full ">
+      <div className=" min-h- w-full">
         {/* Background Image with Opacity */}
         <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
+          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"  // Set z-index to 0 for the background
           style={{
-            backgroundImage: `url('/aboutbg.svg')`, // Update the path if necessary
+            backgroundImage: `url('/aboutbg.svg')`,
           }}
         />
 
         {/* Content Layer */}
-        <div className="relative text-white pt-6 2xl:px-[300px] md:px-[125px] md:pt-6 z-10">
+        <div className="relative text-white pt-6 2xl:px-[300px] md:px-[125px] md:pt-6 ">
           <Nav />
         </div>
 
-        <div className="relative flex px-5 md:px-0 items-center -mt-[50px] justify-center min-h-screen z-10">
+        <div className="relative  flex px-5 md:px-0 items-center -mt-[50px] justify-center min-h-screen z-[-1]">
           <div>
             <p className="text-[28px] mx-auto text-center font-semibold 2xl:text-[36px]">
               Empower Your Future with Genesis Bank
@@ -39,7 +39,7 @@ const Page = () => {
       </div>
 
       <GenesisCard />
-      <Stability/>
+      <Stability />
     </div>
   );
 };
