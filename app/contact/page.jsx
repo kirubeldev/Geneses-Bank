@@ -64,7 +64,7 @@ const page = () => {
             />
           </div>
           <button type="submit" className="mt-4 bg-[#AF001E]  text-white px-[100px] py-2 rounded-md w-fit flex justify-center mx-auto">
-          Send
+          Submit
         </button>
         </div>
        
