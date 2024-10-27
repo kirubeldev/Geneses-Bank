@@ -10,7 +10,7 @@ const Risk = () => {
 <div className='flex flex-col md:gap-12 space-y-6 md:flex-row md:justify-between md:items-center'>
    <div className='md:w-1/2'>
 
-    <Graph2/>
+    {/* <Graph2/> */}
    </div>
     <div className='md:w-1/2 px-5'>
 
