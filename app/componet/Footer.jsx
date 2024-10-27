@@ -25,20 +25,20 @@ const Footer = () => {
 
           <nav>
             <ul className="space-y-2">
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   About Us
                 </Link>
               </li>
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   Investment
                 </Link>
               </li>
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   How it works
                 </Link>
@@ -51,8 +51,8 @@ const Footer = () => {
 
           <nav>
             <ul className="space-y-2">
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   Latest News
                 </Link>
@@ -66,14 +66,14 @@ const Footer = () => {
 
           <nav>
             <ul className="space-y-2">
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   Agerements
                 </Link>
               </li>
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   License
                 </Link>
@@ -87,26 +87,26 @@ const Footer = () => {
 
           <nav>
             <ul className="space-y-2">
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   +251 96742 3789
                 </Link>
               </li>
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   +251 96742 7389
                 </Link>
               </li>
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   gb@example.com
                 </Link>
               </li>
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   gb2@example.com
                 </Link>
@@ -119,8 +119,8 @@ const Footer = () => {
 
           <nav>
             <ul className="space-y-2">
-              <li>
-                <Link href={""} className="text-white/75">
+              <li className="w-fit">
+                <Link  href={""} className="text-white/75 w-fit">
                   {" "}
                   Addis Ababa, Ethiopia <br /> Working da from 8am to <br /> 5pm
                 </Link>
@@ -131,7 +131,7 @@ const Footer = () => {
       </div>
       <hr />
 
-      <div className="pt-[40px] text-white  md:px-[120px]  pb-[65px]  bg-[#151515] flex justify-between  items-center">
+      <div className="pt-[40px] flex-col  text-white  md:px-[120px]  pb-[65px]  bg-[#151515] flex justify-between  items-center">
         <p>© 2024 Copyright. All rights resaved </p>
         <p>Term and condition. Policy</p>
       </div>
